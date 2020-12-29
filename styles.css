@@ -36,9 +36,12 @@ p{
 }
 
 .big {
-  margin-top: 5px;
   font-size: 18px;
   font-weight: 700;
+}
+
+.title {
+  margin-top: 12px;
 }
 
 .med {
@@ -63,7 +66,7 @@ p{
   position: relative;
   z-index: 4;
   margin: 10% auto 20px;
-  width: 400px;
+  width: 375px;
   box-shadow: 10px 10px 5px grey;
 }
 
