@@ -6,6 +6,10 @@ body {
   z-index: 1;
 }
 
+ul{
+
+}
+
 p{
  margin: 0;
  padding: 0;
@@ -87,7 +91,15 @@ p{
 @media (max-width: 600px) {
   .card {
     margin: 50% auto 20px;
+    width: 325px;
   }
+  .title{
+    margin-top: 25px;
+  }
+  .avatar{
+    top: 80px;
+  }
+}
 
 .attribution {
   font-size: 11px;
