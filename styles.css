@@ -4,6 +4,10 @@ body {
   overflow: hidden;
   text-align: center;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
 }
 
 ul{
@@ -13,6 +17,14 @@ ul{
 p{
  margin: 0;
  padding: 0;
+}
+
+.card {
+  border-width: 0;
+  border-radius: 5%;
+  z-index: 4;
+  margin: auto;
+  width: 375px;
 }
 
 .ptop {
@@ -64,16 +76,6 @@ p{
   margin: 5px 0 12px;
 }
 
-.card {
-  border-width: 0;
-  border-radius: 5%;
-  position: relative;
-  z-index: 4;
-  margin: 10% auto 20px;
-  width: 375px;
-  box-shadow: 10px 10px 5px grey;
-}
-
 .list-group{
   padding-right: 0;
 }
@@ -84,21 +86,8 @@ p{
 
 
 .card-img-top{
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-}
-
-@media (max-width: 600px) {
-  .card {
-    margin: 50% auto 20px;
-    width: 325px;
-  }
-  .title{
-    margin-top: 25px;
-  }
-  .avatar{
-    top: 80px;
-  }
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .attribution {
